@@ -1,6 +1,20 @@
-#coding=utf-8
+# coding=utf-8
 """
-Listagem das variaveis 
+Listagem das variaveis
+op -> Var para escolha da ação dentro do Sistema;
+refri -> Var para escolha dentre as opções de refrigerantes;
+ml -> Var responsável pela quantia de refrigerante no drink;
+rum -> Var responsável pela quantia de rum no drink;
+mgelo -> Var responsável pela quantia de gelo no drink;
+contAux -> Var de controle, utilizada para a validação do drink;
+rFraco -> Var responsável por armazenar o grau de pertinencia de rum em fraco;
+rSuave -> Var responsável por armazenar o grau de pertinencia de rum em suave;
+rForte -> Var responsável por armazenar o grau de pertinencia de rum em forte;
+rGelo -> Var responsável por amarzenar o grau de pertinencia de gelo;
+Suave -> Var responsável por armazenar o grau de pertinencia do drink em Suave;
+Fraco -> Var responsável por armazenar o grau de pertinencia do drink em Fraco;
+Forte -> Var responsável por armazenar o grau de pertinencia do drink em Forte;
+Paladar -> Var responsável por armazenar qual o Teor do paladar do drink.
 """
 op = ''
 refri = 0
