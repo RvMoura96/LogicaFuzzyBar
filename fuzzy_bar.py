@@ -436,7 +436,7 @@ def coleta(refri):
 
     contAux = verificaCuba(ml, rum, mgelo, refri)
 
-    if contAux == True:
+    if contAux:
         vForte = pertForte(ml, vForte, refri)
         vSuave = pertSuave(ml, vSuave, refri)
         vFraca = pertFraca(ml, vFraca, refri)
@@ -447,7 +447,7 @@ def coleta(refri):
         Suave = suave(vForte, rFraco, rGelo, vSuave, rSuave, vFraca, rForte, Suave)
         Fraco = fraco(vFraca, rFraco, rGelo, rSuave, vSuave, Fraco)
         Forte = forte(vForte, rSuave, rGelo, rForte, vSuave, Forte)
-        Paladar = paladar(ml, rum, mgelo, Fraco, Suave, Forte, Paladar)
+        Paladar = paladar(Fraco, Suave, Forte, Paladar)
 
         if Paladar == Fraco:
             if Paladar == Suave and Paladar == Forte:
